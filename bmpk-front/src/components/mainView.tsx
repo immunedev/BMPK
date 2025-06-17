@@ -142,7 +142,7 @@ const MainView: React.FC = () => (
             </ul>
 
             <button
-                className="bg-rose-100 hover:bg-rose-200 text-rose-700 font-bold py-3 px-8 rounded-xl transition shadow-lg mb-4"
+                className="hidden md:block bg-rose-100 hover:bg-rose-200 text-rose-700 font-bold py-3 px-8 rounded-xl transition shadow-lg mb-4"
                 onClick={() => window.scrollBy({ top: window.innerHeight, left: 0, behavior: 'smooth' })}
                 type="button"
             >
