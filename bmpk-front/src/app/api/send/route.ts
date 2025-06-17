@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     const { error } = await resend.emails.send({
       from: 'noreply@bezkredytu.com', 
       to: 'appbmpk@gmail.com',
-      subject: `Nowa wiadomość w temacie: ${topic}`,
+      subject: `[BMPK] Nowa wiadomość w temacie: ${topic}`,
       html: `
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Numer telefonu:</strong> ${phone}</p>
