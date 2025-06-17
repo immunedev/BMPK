@@ -12,7 +12,7 @@ const aboutSections: AboutSection[] = [
         title: "Kim jesteśmy?",
         content:
             "Jesteśmy zespołem doświadczonych radców prawnych, którzy od lat skutecznie pomagają klientom indywidualnym i firmom. Nasza kancelaria specjalizuje się w sprawach kredytów frankowych, WIBOR, odzyskiwaniu środków oraz szeroko pojętym wsparciu prawnym. Stawiamy na indywidualne podejście i pełne zaangażowanie w każdą sprawę.",
-        image: "/public/images/jd.jpg",
+        image: "/public/images/temp.webp",
     },
     {
         title: "Nasza misja",
@@ -53,7 +53,7 @@ const AboutUsView: React.FC = () => (
                             {section.image ? (
                                 <div className="relative w-full h-64 md:h-full min-h-[16rem]">
                                     <Image
-                                        src={section.image}
+                                        src="/images/temp.webp"
                                         alt={section.title}
                                         fill
                                         className="object-cover"
