@@ -12,31 +12,31 @@ const team: TeamMember[] = [
     {
         role: "Właściciel",
         name: "Maciej Brończyk",
-        photo: "/images/team/maciej-bronczyk.jpg",
+        photo: "/images/temp1.webp",
         specialization: "Założyciel kancelarii, ekspert w sprawach kredytów frankowych i prawa cywilnego.",
     },
     {
         role: "Radca prawny",
         name: "Olga Brończyk",
-        photo: "/images/team/olga-bronczyk.jpg",
+        photo: "/images/temp1.webp",
         specialization: "Specjalizuje się w kredytach frankowych i prawie cywilnym.",
     },
     {
         role: "Radca prawny",
         name: "Mikołaj Leszczyński",
-        photo: "/images/team/mikolaj-leszczynski.jpg",
+        photo: "/images/temp1.webp",
         specialization: "Prowadzi sprawy związane z doradztwem prawnym firm.",
     },
     {
         role: "Radca prawny",
         name: "Andrzej ...",
-        photo: "/images/team/mikolaj-leszczynski.jpg",
+        photo: "/images/temp1.webp",
         specialization: "Prowadzi sprawy związane z doradztwem prawnym firm.",
     },
     {
         role: "Radca prawny",
         name: "Anna Kowalska",
-        photo: "/images/team/mikolaj-leszczynski.jpg",
+        photo: "/images/temp1.webp",
         specialization: "Prowadzi sprawy związane z doradztwem prawnym firm.",
     },
 ];
