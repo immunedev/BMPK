@@ -6,14 +6,14 @@ import { usePathname } from "next/navigation";
 
 const Logo: React.FC = () => (
     <div className="flex items-center justify-center">
-        <span className="text-lg md:text-xl font-bold text-rose-800 tracking-wide">
+        <Link href="/" className="text-lg md:text-xl font-bold text-rose-800 tracking-wide">
             BMPK - Kancelaria Prawna
-        </span>
+        </Link>
     </div>
 );
 
 const navLinks = [
-    { href: "/", label: "Strona główna" },
+    // { href: "/", label: "Strona główna" },
     { href: "/oferta-frank", label: "Oferta dla Frankowiczów" },
     { href: "/oferta-wibor", label: "Oferta dla WIBORowców" },
 ];
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
                             href={href}
                             className={`font-semibold transition ${
                                 pathname === href
-                                    ? "text-rose-500"
+                                    ? "text-rose-600"
                                     : "text-rose-800 hover:text-rose-900"
                             }`}
                         >
@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
                                 href={href}
                                 className={`font-semibold transition ${
                                     pathname === href
-                                        ? "text-rose-500"
+                                        ? "text-rose-600"
                                         : "text-rose-800 hover:text-rose-900"
                                 }`}
                                 onClick={() => setIsMenuOpen(false)}

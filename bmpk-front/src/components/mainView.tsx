@@ -80,7 +80,7 @@ const ContactForm: React.FC = () => {
                 <label className="flex flex-col font-semibold text-slate-700">
                     Temat
                     <select
-                        className="mt-2 rounded-xl focus:ring-2 focus:ring-rose-400 outline-none transition bg-rose-50"
+                        className="mt-2 p-3 rounded-xl focus:ring-2 focus:ring-rose-400 outline-none transition bg-rose-50"
                         value={topic}
                         onChange={e => setTopic(e.target.value)}
                     >
@@ -126,7 +126,7 @@ const MainView: React.FC = () => (
         <div className="flex-1 flex flex-col items-start justify-center max-w-xl mb-12 md:mb-0 md:mr-16">
             <h1 className="text-5xl md:text-6xl font-extrabold text-rose-800 mb-6 leading-tight">
                 Twoje bezpieczeństwo<br />
-                <span className="text-rose-500">Naszym priorytetem</span>
+                <span className="text-rose-600">Naszym priorytetem</span>
             </h1>
             <p className="text-lg md:text-xl font-semibold text-slate-700 mb-8">
                 Skuteczna pomoc prawna dla osób i firm.<br />

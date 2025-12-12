@@ -26,7 +26,7 @@ const LocalisationView: React.FC<LocalisationProps> = ({
                 <hr className="my-6 border-t-2 border-rose-200 w-32 mx-auto" />
             </div>
             <div className="grid md:grid-cols-2 gap-10 items-center">
-                <div className="rounded-3xl overflow-hidden shadow-2xl">
+                <div className="h-[350px] rounded-3xl overflow-hidden shadow-2xl">
                     <iframe
                         src={googleMapsSrc}
                         width="100%"
@@ -38,7 +38,7 @@ const LocalisationView: React.FC<LocalisationProps> = ({
                         title="Google Maps"
                     ></iframe>
                 </div>
-                <div className="bg-white rounded-3xl shadow-2xl p-8 flex flex-col gap-6">
+                <div className="bg-white rounded-3xl shadow-2xl p-8 flex flex-col justify-center gap-6 h-[350px]">
                     <div className="flex items-start gap-4">
                         <FaMapMarkerAlt className="text-2xl text-rose-700 mt-1" />
                         <div>
